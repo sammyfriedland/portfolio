@@ -1,0 +1,92 @@
+header{
+    background-color: #A3B18A;
+    color: #588157;
+    margin-top: -25px;
+    height: 100px
+}
+.header{
+    color:#588157;
+}
+body{
+    margin: 0px;
+    background-color: #344E41;
+    color: #A3B18A;
+}
+nav{
+    color: black;
+}
+li.nav{
+    display: inline;
+    border: 3px solid #588157;
+    padding: 10px;
+    margin: 10px;
+    background-color:#3A5A40;
+}
+ul.nav{
+    border: solid 3px #3A5A40;
+    background-color:#588157;
+}
+a.nav{
+    color: #588157;
+}
+a.nav:hover{
+    color:orange
+}
+h1{
+    color: #DAD7CD;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid #588157
+}
+video{
+    height:300px;
+    width:300px;
+    border: 3px solid #588157
+}
+.end{
+    align-items: center;
+}
+a.source{
+    color:#A3B18A
+}
+a.source:hover{
+    color: orange;
+}
+#recipeHeader{
+    text-align: center;
+}
+#recipeDescription{
+    text-align:center;
+}
+.ingredientsTitle{
+    text-align:center;
+}
+.ingredientsItems {
+    margin-left: 500px;
+    width: 25%;
+    border: 6px double #588157;
+    background-color: #3A5A40
+}
+.adBackground{
+    width: 1350px;
+    position: relative;
+    opacity: 50%;
+}
+.ad{
+    width:auto;
+    height:300px;
+    position:absolute;
+    z-index: 1;
+    text-align: center;
+    border: 0px solid transparent;
+    left:200px;
+    top:3px;
+    border-left: 10px darkorange solid;
+    border-right: 10px darkorange solid
+}
+.adTotal{
+    text-align: center;
+    position: relative;
+}

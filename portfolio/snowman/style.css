@@ -1,0 +1,175 @@
+.ground{
+    background-color:lightgray;
+    position:absolute;
+    height:50px;
+    width:1000px;
+    top:450px
+  }
+  .base{
+    position:absolute;
+    top:290px;
+    left:150px;
+    height:200px;
+    width:200px;
+    border: 4px black solid;
+    background-color: white;
+    border-radius: 50%;
+    display:inline-block;
+  }
+  .body{
+    position:absolute;
+    top:170px;
+    left:175px;
+    height:150px;
+    width:150px;
+    border: 4px black solid;
+    background-color: white;
+    border-radius: 50%;
+    display:inline-block;
+  }
+  .head{
+    position:absolute;
+    top:100px;
+    left:200px;
+    height:100px;
+    width:100px;
+    border: 4px black solid;
+    background-color: white;
+    border-radius: 50%;
+    display:inline-block;
+  }
+  .nosepoint{
+    width: 0px; 
+    height: 0px; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid orange; 
+    position:absolute;
+    top:150px;
+    left:290px
+  }
+  .nosebase{
+    position:absolute;
+    width:40px;
+    height:20px;
+    background-color:orange;
+    top:150px;
+    left:250px;
+  }
+  .eye1{
+    position:absolute;
+    border-radius:50%;
+    background-color:black;
+    width:20px;
+    height:20px;
+    top:120px;
+    left:220px;
+  }
+  .eye2{
+    position:absolute;
+    border-radius:50%;
+    background-color:black;
+    width:25px;
+    height:25px;
+    top:115px;
+    left:260px;
+  }
+  .button1{
+    position:absolute;
+    border-radius:50%;
+    background-color:black;
+    width:25px;
+    height:25px;
+    top:240px;
+    left:240px
+  }
+  .button2{
+    position:absolute;
+    border-radius:50%;
+    background-color:black;
+    width:25px;
+    height:25px;
+    top:350px;
+    left:240px
+  }
+  .button3{
+    position:absolute;
+    border-radius:50%;
+    background-color:black;
+    width:25px;
+    height:25px;
+    top:400px;
+    left:240px
+  }
+  .arm1base{
+    position:absolute;
+    background-color:#C4A484;
+    width:100px;
+    height:10px;
+    transform: rotate(30deg);
+    top:220px;
+    left:84px
+  }
+  .arm1finger1{
+    position:absolute;
+    background-color:#C4A484;
+    width:40px;
+    height:10px;
+    transform: rotate(170deg);
+    top:200px;
+    left:55px
+  }
+  .arm1finger2{
+    position:absolute;
+    background-color:#C4A484;
+    width:40px;
+    height:10px;
+    transform: rotate(75deg);
+    top:180px;
+    left:70px
+  }
+  .arm2base{
+    position:absolute;
+    background-color:#C4A484;
+    width:100px;
+    height:10px;
+    transform: rotate(150deg);
+    top:220px;
+    left: 324px
+  }
+  .arm2finger1{
+    position:absolute;
+    background-color:#C4A484;
+    width:40px;
+    height:10px;
+    transform:rotate(10deg);
+    top:200px;
+    left:413px
+  }
+  .arm2finger2{
+    position:absolute;
+    background-color:#C4A484;
+    width:40px;
+    height:10px;
+    transform: rotate(115deg);
+    top:180px;
+    left:403px
+  }
+  .hatbase{
+    background-color:black;
+    border:lightgray solid 3px;
+    position:absolute;
+    width:150px;
+    height:30px;
+    top:80px;
+    left:175px
+  }
+  .hattop{
+    background-color:black;
+    border:lightgray solid 3px;
+    position:absolute;
+    width:70px;
+    height:75px;
+    left:215px
+  }
+  
